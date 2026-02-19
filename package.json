@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cypress": "^15.10.0",
+    "json-server": "^0.17.4"
+  },
+  "scripts": {
+    "api": "json-server --watch Maquette/db.json --port 3000"
+  }
+}

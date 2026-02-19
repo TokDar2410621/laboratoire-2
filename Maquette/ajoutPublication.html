@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEPI - Ajouter une publication</title>
+
+    <link href="Sass/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="node_modules/jquery-ui-dist/jquery-ui.min.css">
+</head>
+<body class="bg-light">
+
+    <header class="bg-white border-bottom border-2 border-dark py-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand p-0" href="index.html">
+                    <img src="img/logo.png" id="logo" alt="Logo CEPI" width="120" height="60" class="img-fluid border border-dark">
+                </a>
+
+                <button class="navbar-toggler border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 text-center fw-bold">
+                        <li class="nav-item px-3"><a class="nav-link text-dark" href="#">Menu1</a></li>
+                        <li class="nav-item px-3"><a class="nav-link text-dark" href="#">Menu2</a></li>
+                        <li class="nav-item px-3"><a class="nav-link text-dark" href="#">Menu3</a></li>
+                        <li class="nav-item px-3"><a class="nav-link text-dark" href="#">Menu4</a></li>
+                    </ul>
+                </div>
+
+                <div class="d-none d-lg-block">
+                    <i class="bi bi-person-circle fs-2 text-dark"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1 class="display-5 fw-bold mb-4">Ajouter une publication</h1>
+                <form id="formAjout" class="border border-dark p-4 bg-white">
+                    <div class="mb-3">
+                        <label for="titre" class="form-label fw-bold">Titre</label>
+                        <input type="text" class="form-control border-dark" id="titre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="auteur" class="form-label fw-bold">Auteur</label>
+                        <input type="text" class="form-control border-dark" id="auteur" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="contenu" class="form-label fw-bold">Contenu</label>
+                        <textarea class="form-control border-dark" id="contenu" rows="6" required></textarea>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary rounded-0 px-4">Publier</button>
+                    </div>
+                </form>
+                <div id="confirmDialog" style="display:none;">
+                    <p>Voulez-vous vraiment publier cet article?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center mt-5 py-4 bg-white border-top border-2 border-dark">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="text-dark mx-2 text-decoration-none"><i class="bi bi-facebook fs-4"></i></a>
+                <a href="#" class="text-dark mx-2 text-decoration-none"><i class="bi bi-twitter fs-4"></i></a>
+                <a href="#" class="text-dark mx-2 text-decoration-none"><i class="bi bi-linkedin fs-4"></i></a>
+            </div>
+            <p class="mb-1 fw-bold">Centre d'Expertise et de Perfectionnement en Informatique</p>
+            <p class="small mb-0">2022</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/ajout.js"></script>
+</body>
+</html>

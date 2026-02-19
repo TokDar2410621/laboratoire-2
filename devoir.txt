@@ -1,0 +1,67 @@
+420-KVA-JQ Web transactionnel
+Dans ce laboratoire, vous aurez à modifier le site Web du laboratoire #1 afin de le rendre plus dynamique.
+Votre tâche est d’utiliser AJAX, JSON Server et jQuery afin de charger le contenu de façon dynamique et améliorer les interactions avec l’utilisateur.
+Votre application doit être écrite en TypeScript et être complètement testée avec Cypress.
+Contexte
+Malgré les difficultés rencontrées lors du dernier sprint, votre présentation au client a été un succès. Il est très satisfait de la progression pour le moment et a hâte à la prochaine démonstration.
+Votre chef d’équipe vient vous voir pour vous féliciter et dresser la liste des éléments qu’il a été convenu d’implémenter pour le client pour le prochain sprint.
+JSON Server
+Comme l’équipe backend n’a pas encore terminée de faire l’API, il vous est demandé d’utiliser JSON Server afin de créer une API temporaire afin de tester le chargement dynamique du contenu de la page principale.
+Votre API doit fournir les informations sur les publications du blog. Chaque publication doit posséder les informations suivantes :
+•	Un identifiant unique
+•	Le titre
+•	L’auteur
+•	La date de publication
+•	Le contenu
+Assurez-vous que l’API contienne au moins sept publications dès le départ.
+Votre API doit également fournir les informations sur les commentaires des publications. Les commentaires n’ont pas d’auteur, car ils sont anonymes. Chaque commentaire doit posséder les informations suivantes :
+•	Un identifiant unique
+•	La publication auquel il est lié
+•	La date de publication
+•	Le contenu
+Assurez-vous d’entrer au moins une dizaine de commentaires dès le départ.
+Chargement des publications
+Dans la page principale, vous devez insérer dynamiquement les publications à partir de ce que renvoie l’API.
+Lors du chargement de la page, l’application devrait faire une requête AJAX à l’API afin d’obtenir les données. Elle devra ensuite insérer les données dans la page en respectant la mise en forme établie précédemment.
+Testez cette fonctionnalité avec Cypress.
+Formulaire d’ajout
+Créez une page « cachée » contenant un formulaire permettant d’ajouter une publication. La page est cachée au sens où il ne devrait pas y avoir de lien qui pointe vers cette page sur les autres pages. Elle doit contenir les champs permettant d’entrer le titre, l’auteur, et le contenu. L’identifiant et la date doivent être insérés automatiquement. 
+Lorsque l’utilisateur clique sur le bouton d’envoi, une boîte de dialogue doit apparaître et lui demander de confirmer l’envoi. Utilisez jQuery UI pour créer la boîte de dialogue.
+Lors de l’envoi du formulaire d’ajout, l’application devrait faire une requête POST à l’API pour que la publication soit ajoutée.
+L’application devrait ensuite rediriger vers la page principale.
+Testez cette fonctionnalité avec Cypress.
+Consultation d’une publication
+Lors de la consultation de la page d’une publication, une requête AJAX devrait être faite à l’API afin d’obtenir le contenu de la publication. Cette requête doit utiliser les query parameters afin d’obtenir l’identifiant à charger.
+L’application doit ensuite insérer les éléments du contenu en respectant la mise en page.
+L’application doit également insérer les commentaires en utilisant la même technique.
+Testez cette fonctionnalité avec Cypress.
+Ajout d’un commentaire
+L’utilisateur peut entrer un commentaire dans la boîte réservée à cet effet. Lorsqu’il envoie le commentaire, l’application doit utiliser l’API pour insérer le commentaire.
+Testez cette fonctionnalité avec Cypress.
+
+
+ 
+Grille de correction
+
+	Excellent
+(5)	Très bien
+(4)	Bien
+(3)	Suffisant
+(2)	Insuffisant
+(0-1)
+Création de l’API avec JSON Server					
+Insertion dynamique des publications dans la page principale 					
+Ajout des données du formulaire d’ajout dans l’API					
+Confirmation avant l’envoi du formulaire d’ajout					
+Insertion dynamique de la publication dans la page de consultation					
+Insertion dynamique des commentaires dans la page de consultation					
+Ajout de commentaires dans l’API					
+Organisation générale du code					
+Validité des tests					
+
+Total : 		/ 45
+
+
+Remise
+Vous devez remettre votre application sur Git. La date de remise est indiquée sur Teams.
+
