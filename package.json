@@ -1,9 +1,23 @@
 {
   "dependencies": {
-    "cypress": "^15.10.0",
-    "json-server": "^0.17.4"
+    "bootstrap": "^5.3.8",
+    "jquery": "^3.7.1",
+    "jquery-ui-dist": "^1.13.3",
+    "json-server": "^0.17.3",
+    "http-server": "^14.1.1",
+    "cypress": "^12.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/jquery": "^3.5.31",
+    "@types/jqueryui": "^1.12.23"
   },
   "scripts": {
-    "api": "json-server --watch Maquette/db.json --port 3000"
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "api": "npx json-server --watch db.json --port 3000",
+    "dev": "npx http-server -p 8080",
+    "cypress": "npx cypress open"
+
   }
 }

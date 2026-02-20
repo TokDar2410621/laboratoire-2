@@ -1,0 +1,179 @@
+{
+  "publications": [
+    {
+      "id": "1",
+      "titre": "Introduction au développement Web",
+      "auteur": "Jean Dupont",
+      "datePublication": "2024-01-15",
+      "contenu": "Le développement Web est un domaine en constante évolution. Les technologies modernes comme HTML5, CSS3 et JavaScript permettent de créer des expériences utilisateur riches et interactives. Dans cet article, nous explorons les fondamentaux du développement Web et les meilleures pratiques à adopter pour créer des sites performants et accessibles."
+    },
+    {
+      "id": "2",
+      "titre": "Les bases de JavaScript",
+      "auteur": "Marie Tremblay",
+      "datePublication": "2024-02-20",
+      "contenu": "JavaScript est le langage de programmation le plus utilisé sur le Web. Il permet d'ajouter de l'interactivité aux pages HTML et de communiquer avec des serveurs via AJAX. Maîtriser JavaScript est essentiel pour tout développeur Web moderne. Nous couvrons les variables, les fonctions, les boucles et les événements."
+    },
+    {
+      "id": "3",
+      "titre": "Bootstrap 5 en profondeur",
+      "auteur": "Pierre Martin",
+      "datePublication": "2024-03-10",
+      "contenu": "Bootstrap 5 est le framework CSS le plus populaire pour la création de sites Web responsifs. Cette version abandonne jQuery comme dépendance et introduit de nouvelles fonctionnalités comme les utilitaires améliorés et un système de grille encore plus flexible. Découvrez comment tirer le meilleur parti de Bootstrap 5."
+    },
+    {
+      "id": "4",
+      "titre": "AJAX et les requêtes asynchrones",
+      "auteur": "Sophie Lavoie",
+      "datePublication": "2024-04-05",
+      "contenu": "AJAX permet de charger des données de façon asynchrone sans recharger la page. Cela améliore considérablement l'expérience utilisateur en rendant les applications Web plus rapides et réactives. Apprenez à utiliser jQuery pour faire des requêtes GET et POST vers une API REST."
+    },
+    {
+      "id": "5",
+      "titre": "JSON Server pour le prototypage",
+      "auteur": "Luc Bergeron",
+      "datePublication": "2024-05-12",
+      "contenu": "JSON Server est un outil précieux pour les développeurs front-end qui ont besoin d'une API REST fonctionnelle rapidement. En quelques minutes, vous pouvez créer une API complète avec des routes RESTful à partir d'un simple fichier JSON. Idéal pour le prototypage et les tests."
+    },
+    {
+      "id": "6",
+      "titre": "Tests automatisés avec Cypress",
+      "auteur": "Isabelle Roy",
+      "datePublication": "2024-06-18",
+      "contenu": "Cypress est un framework de test end-to-end moderne qui facilite les tests d'applications Web. Il offre une excellente expérience développeur avec un rechargement automatique, des captures d'écran et une API intuitive. Découvrez comment écrire vos premiers tests Cypress."
+    },
+    {
+      "id": "7",
+      "titre": "jQuery UI et les interactions",
+      "auteur": "Marc Gagnon",
+      "datePublication": "2024-07-22",
+      "contenu": "jQuery UI fournit des composants d'interface utilisateur riches, tels que les dialogues, les onglets et le drag-and-drop, qui enrichissent l'expérience utilisateur. Apprenez à intégrer ces composants dans vos projets Web pour créer des interfaces modernes et interactives."
+    },
+    {
+      "titre": "chambre a trois riviere",
+      "auteur": "Darius",
+      "datePublication": "2026-02-19",
+      "contenu": "ceci est un test d'ajout",
+      "id": "8"
+    },
+    {
+      "titre": "Publication Cypress 1771528681882",
+      "auteur": "Cypress Bot",
+      "datePublication": "2026-02-19",
+      "contenu": "Contenu généré par Cypress pour les tests automatisés.",
+      "id": "9"
+    },
+    {
+      "id": "a9dd",
+      "titre": "dfsdfsdfdsf",
+      "auteur": "dsfdsfsdfsdf",
+      "datePublication": "2026-02-20",
+      "contenu": "gsfdhfdhsfdgsdfdsfsdfsd"
+    },
+    {
+      "id": "ae29",
+      "titre": "Publication Cypress 1771618409457",
+      "auteur": "Cypress Bot",
+      "datePublication": "2026-02-20",
+      "contenu": "Contenu généré par Cypress pour les tests automatisés."
+    }
+  ],
+  "commentaires": [
+    {
+      "id": "1",
+      "publicationId": 1,
+      "datePublication": "2024-01-20",
+      "contenu": "Excellent article pour les débutants! Très bien expliqué."
+    },
+    {
+      "id": "2",
+      "publicationId": 1,
+      "datePublication": "2024-01-22",
+      "contenu": "Merci pour ces explications claires et concises."
+    },
+    {
+      "id": "3",
+      "publicationId": 2,
+      "datePublication": "2024-02-25",
+      "contenu": "JavaScript est vraiment incontournable de nos jours."
+    },
+    {
+      "id": "4",
+      "publicationId": 2,
+      "datePublication": "2024-03-01",
+      "contenu": "Très bon survol du langage, j'aurais aimé plus d'exemples."
+    },
+    {
+      "id": "5",
+      "publicationId": 3,
+      "datePublication": "2024-03-15",
+      "contenu": "Bootstrap est mon framework préféré pour le CSS."
+    },
+    {
+      "id": "6",
+      "publicationId": 3,
+      "datePublication": "2024-03-18",
+      "contenu": "J'aimerais en savoir plus sur les composants personnalisés."
+    },
+    {
+      "id": "7",
+      "publicationId": 4,
+      "datePublication": "2024-04-10",
+      "contenu": "AJAX a révolutionné le développement Web moderne."
+    },
+    {
+      "id": "8",
+      "publicationId": 5,
+      "datePublication": "2024-05-15",
+      "contenu": "JSON Server m'a sauvé la vie sur mon dernier projet!"
+    },
+    {
+      "id": "9",
+      "publicationId": 6,
+      "datePublication": "2024-06-22",
+      "contenu": "Cypress est le meilleur outil de test que j'ai utilisé."
+    },
+    {
+      "id": "10",
+      "publicationId": 7,
+      "datePublication": "2024-07-25",
+      "contenu": "Les dialogues jQuery UI sont très pratiques pour les confirmations."
+    },
+    {
+      "id": "11",
+      "publicationId": 1,
+      "datePublication": "2024-02-01",
+      "contenu": "Un bon point de départ pour quelqu'un qui débute dans le Web."
+    },
+    {
+      "publicationId": 1,
+      "datePublication": "2026-02-19",
+      "contenu": "Commentaire de test Cypress 1771528705405",
+      "id": "12"
+    },
+    {
+      "publicationId": 1,
+      "datePublication": "2026-02-19",
+      "contenu": "Un commentaire de test",
+      "id": "13"
+    },
+    {
+      "id": "f50c",
+      "publicationId": 1,
+      "datePublication": "2026-02-20",
+      "contenu": "zeryuuyt"
+    },
+    {
+      "id": "8b85",
+      "publicationId": 1,
+      "datePublication": "2026-02-20",
+      "contenu": "Commentaire de test Cypress 1771618402280"
+    },
+    {
+      "id": "a570",
+      "publicationId": 1,
+      "datePublication": "2026-02-20",
+      "contenu": "Un commentaire de test"
+    }
+  ]
+}
